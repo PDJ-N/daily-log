@@ -1,5 +1,28 @@
 > ### 📅 **2026-08-05 (Wed)**
-- 
+- 3day
+  오늘의 점심 쌀국수
+
+  1. DOM,REACTDOM 에 대한 개념
+     HTML 과 XML 문서의 프로그래밍 INTERFACE 이며 각, 문서를 JS로 조작하기 위해 존재함
+     reactdom 은 브라우저 DOM에서 react를 사용하기 위한 라이브러리이다. 페이지ㅔㅇ서 변경된 부분만 다시 랜더링하여
+     속도가 증가함
+
+  2. REACTHOOK
+     종류와 특징들을 알아봄 useState, useRef, useReducer, useEffect
+
+  3.진행하던 과제 마무리
+    피드백 사항:
+    1. API로 만든 리다이랙션 URL 마지막 '/'은 제외한다.
+    2. 기능 분리를 고려하여 코드를 작성한다.
+    3. 코드정리( 줄바꿈, 줄띄움 ) 자신만의 규칙을 정하여 일관되게 작성
+ 
+  4. 포테이너 설치
+  5. dbveaver 데이터 덤프
+   
+
+  다음 과제:
+    TS,REACT,node express, js ORM, shadcn-ui를 활용하여 backoffice 데이터 테이블을 fe에 띄워라.
+  
 
 ---
 
