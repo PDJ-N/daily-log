@@ -20,7 +20,7 @@ AI는 최후의 보루로 사용하자..
 
   1. DOM,REACTDOM 에 대한 개념
      HTML 과 XML 문서의 프로그래밍 INTERFACE 이며 각, 문서를 JS로 조작하기 위해 존재함
-     reactdom 은 브라우저 DOM에서 react를 사용하기 위한 라이브러리이다. 페이지ㅔㅇ서 변경된 부분만 다시 랜더링하여
+     reactdom 은 브라우저 DOM에서 react를 사용하기 위한 라이브러리이다. 페이지에서 변경된 부분만 다시 랜더링하여
      속도가 증가함
 
   2. REACTHOOK
