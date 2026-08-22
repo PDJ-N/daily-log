@@ -1,3 +1,9 @@
+> ### 📅 **2026-08-22 (Sat)**
+- 
+
+---
+
+
 > ### 📅 **2026-08-21 (Fri)**
 - day 9
   1.useState에 대해 react 공식문서를 확인하였다. useState는 컴포넌트에 state 변수를 추가할 수 있는 React HOOK 이다.
