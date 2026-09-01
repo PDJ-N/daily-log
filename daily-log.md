@@ -1,5 +1,9 @@
 > ### 📅 **2026-08-31 (Mon)**
-- 
+- day 14
+  1. dump data db에 입력
+  2. superset app에 출력되는지 확인 완료
+  3. aws node.js sdk 사용해서 s3 리스트 불러오기
+      
 
 ---
 
