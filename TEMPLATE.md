@@ -1,4 +1,4 @@
-# Daily Log Template
+# Daily Log Rule
 
 # hermes가 log를 작성할 때 이 규칙을 확인하도록한다.
 
