@@ -1,5 +1,13 @@
 > ### 📅 **2026-09-07 (Mon)**
-- 
+-day 17
+  1. Superset chart 작업
+     - linechart와 time-series table 활용
+     - api_key 공통 객체로 클릭 필터링 처리
+  2. DNS 개념 복습
+  3. Hermes/OpenClaw 설치 및 사용
+  4. 자동화 스크립트 실행
+
+     오점:
 
 ---
 
