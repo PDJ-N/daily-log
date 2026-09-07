@@ -1,13 +1,15 @@
 > ### 📅 **2026-09-07 (Mon)**
--day 17
+-day 19
   1. Superset chart 작업
      - linechart와 time-series table 활용
      - api_key 공통 객체로 클릭 필터링 처리
   2. DNS 개념 복습
-  3. Hermes/OpenClaw 설치 및 사용
-  4. 자동화 스크립트 실행
+  3. openclaw /Hermes 설치 및 사용
+  4. Hermes agent사용하여 log 작성 자동화 진행
+  5. open-claw, hermes, 디파이 에이전트 금주(목) 회의 진행
+  6. 도메인 스터디내용(금) 회의시간에 간단하게 발표진행 
 
-     오점:
+     오점:해장국
 
 ---
 
@@ -26,7 +28,11 @@
 
 > ### 📅 **2026-09-04 (Fri)**
 - day18
+   1. domian에 대한 스터디 진행
+   2. DB에 등록된 log 및 endpoint 매핑 진행
+      예시 chart작성 완료
 
+      오점 : 샤브샤브
 ---
 
 
