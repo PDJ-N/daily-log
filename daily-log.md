@@ -1763,28 +1763,3 @@ AI는 최후의 보루로 사용하자..
 
 ---
 
-> ### 📅 **2026-09-07 (Mon)**
--day 20
-- 완료
-  1. Superset chart
-     - linechart, time-series table 구성
-     - api_key 클릭 필터링 적용
-  2. DNS 개념 복습
-  3. Hermes/OpenClaw 설치 및 사용
-  4. 자동화 스크립트 실행 수정 완료
-  5. daily_review.py / RULE.md 저장
-  6. GitHub TEMPLATE.md 삭제
-
-- 진행 중
-  - GitHub 연동 방법 논의
-
-- 이슈
-  - MEMORY.md 2,200자 한계로 루프 멈춤 2회
-
-- 내일 할 일
-  - GitHub 연동 완료
-  - daily_review.py 메모리 정리
-  - Superset chart 고도화
-  - DNS 실습
-
----
