@@ -1,6 +1,11 @@
 {
   "date": "2026-09-08",
-  "activity": "test",
-  "message": "GitHub push test from Hermes agent",
-  "timestamp": "2026-09-08T12:00:00+09:00"
+  "summary": {
+    "session_count": 13,
+    "message_count": 2108
+  },
+  "tasks": [],
+  "issues": [],
+  "manual_notes": [],
+  "tomorrow": []
 }
