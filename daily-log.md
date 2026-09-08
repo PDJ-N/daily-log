@@ -1,19 +1,6 @@
 
 
 > ### 📅 **2026-09-08 (Tue)**
-- day20
-
-
-[Dify 작성]
-
-1. Hermes Agent 로그 점검
-   - 테스트 PUT 이벤트와 샘플 hello-world 데이터 수신 확인
-   - 타임스탬프 기록 정상 동작 확인
-
-
-  1. Hermes Agent 테스트 로그 확인
-     - 테스트용 PUT 이벤트 및 hello-world 샘플 로그 수신
-     - 타임스탬프 기록 정상 확인
 
 ---
 
