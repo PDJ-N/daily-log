@@ -2,6 +2,22 @@
 > ### 📅 **2026-09-08 (Tue)**
 - day20
  
+
+<!-- DIFY_LOG_START -->
+
+> ### 📅 **2026-09-08 (Tue)**
+- day20
+
+  1. Hermes Agent 테스트 로그 점검
+     - 테스트용 PUT 이벤트 수신 확인
+     - hello-world 샘플 페이로드 정상 수집
+     - 타임스탬프 기록 확인
+
+---
+
+<!-- DIFY_LOG_END -->
+
+
   1. Hermes Agent 테스트 로그 확인
      - 테스트용 PUT 이벤트 및 hello-world 샘플 로그 수신
      - 타임스탬프 기록 정상 확인
