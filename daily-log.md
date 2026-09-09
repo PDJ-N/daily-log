@@ -1,5 +1,6 @@
 > ### 📅 **2026-09-09 (Wed)**
-- [Hermes] day 21
+- day 21
+[Hermes]
   1. 5:55 Daily Review 결과가 비어 있던 원인을 확인하고, 활동 JSON 생성 및 daily-log.md 저장 로직을 수정함
   2. Daily Review가 17:55에 정상 실행되어 당일 세션과 메시지 통계를 수집함
   3. Daily Review 완료 시 Gmail SMTP로 완료 메일을 보내는 흐름과 앱 비밀번호 설정을 확인함
