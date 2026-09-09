@@ -1,24 +1,17 @@
 > ### 📅 **2026-09-09 (Wed)**
 - day 21
-  1. 5:55분 작업 내용 누락 원인 확인
-  2. Daily Review · Sep 09 17:56
-  3. 이메일 5시 55분 발송 확인
-  4. 친근한 인사
-  5. Fallback 설정 확인
-  6. cron 작업 추론 설정 고정하기
-  7. Friendly greeting
-  8. List hermes cron jobs
+  1. 5:55 Daily Review 결과가 비어 있던 원인을 확인하고, 활동 JSON 생성 및 daily-log.md 저장 로직을 수정함
+  2. Daily Review가 17:55에 정상 실행되어 당일 세션과 메시지 통계를 수집함
+  3. Daily Review 완료 시 Gmail SMTP로 완료 메일을 보내는 흐름과 앱 비밀번호 설정을 확인함
+  4. 기본 gpt-5.6-luna(openai-codex)와 장애 시 사용할 OpenRouter fallback 설정 및 비용 표시를 확인함
+  5. 모델 변경으로 발생한 cron drift_skip 원인을 확인하고 Daily Review를 openai-codex/gpt-5.6-luna로 고정함
+  6. Hermes cron 목록을 확인하여 Daily Review가 매일 17:55에 실행되는 활성 작업임을 확인함
 
 미완료 및 확인사항:
-  - 반복되는 MSGRAPH_TENANT_ID 설정 요청 의미 확인
+  - MSGRAPH_TENANT_ID 설정 요청이 반복되는 원인과 실제 필요 여부를 추가 확인해야 함
 
 내일은 다음 내용을 확인해보려고한다.
-  - 5:55분 작업 내용 누락 원인 확인
-  - 이메일 5시 55분 발송 확인
-  - Fallback 설정 확인
-  - cron 작업 추론 설정 고정하기
-  - 반복되는 MSGRAPH_TENANT_ID 설정 요청 의미 확인
-  - 이슈 해결 확인: 반복되는 MSGRAPH_TENANT_ID 설정 요청 의미 확인
+  - 이슈 후속 확인: MSGRAPH_TENANT_ID 설정 요청이 반복되는 원인과 실제 필요 여부를 추가 확인해야 함
 
 오점:
 
