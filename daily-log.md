@@ -6,12 +6,15 @@
   4. 기본 gpt-5.6-luna(openai-codex)와 장애 시 사용할 OpenRouter fallback 설정 및 비용 표시를 확인함
   5. 모델 변경으로 발생한 cron drift_skip 원인을 확인하고 Daily Review를 openai-codex/gpt-5.6-luna로 고정함
   6. Hermes cron 목록을 확인하여 Daily Review가 매일 17:55에 실행되는 활성 작업임을 확인함
+  7. Dify에 이메일 기능을 추가하여 자동 알림 흐름을 구성함
+  8. AI 에이전트 스터디 내용을 정리하기 위한 초안 작성을 진행함
 
 미완료 및 확인사항:
   - MSGRAPH_TENANT_ID 설정 요청이 반복되는 원인과 실제 필요 여부를 추가 확인해야 함
 
 내일은 다음 내용을 확인해보려고한다.
-  - 이슈 후속 확인: MSGRAPH_TENANT_ID 설정 요청이 반복되는 원인과 실제 필요 여부를 추가 확인해야 함
+  - 오전에 AI 에이전트 스터디 정리 초안을 마무리함
+  - 도메인 관련 스터디 내용을 정리함
 
 오점:
 
