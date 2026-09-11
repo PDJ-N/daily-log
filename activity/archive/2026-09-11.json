@@ -4,10 +4,18 @@
     "session_count": 1,
     "message_count": 10
   },
-  "tasks": [],
-  "issues": [],
-  "manual_notes": [
-    "세션 내용 추가 확인 필요: 월 훈련계획서 필요 여부 확인 문구"
+  "tasks": [
+    "도메인 스터디 발표자료 정리를 진행함",
+    "Dify 관련 회의에 참석하고 Docker 환경에서 실습을 진행함",
+    "Dify SaaS 환경과 Docker 환경의 차이점을 확인하고, RAG를 적용한 챗봇 기능을 구현하는 작업을 진행 중임"
   ],
-  "tomorrow": []
+  "issues": [
+    "RAG를 적용한 챗봇 기능은 구현 진행 중으로 추가 확인이 필요함"
+  ],
+  "manual_notes": [
+    "사용자 제공 수동 작업 내용을 반영함"
+  ],
+  "tomorrow": [
+    "공유기를 설치하고 네트워크 설정 및 연결을 실습함"
+  ]
 }
