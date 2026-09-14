@@ -1,9 +1,25 @@
 > ### 📅 **2026-09-14 (Mon)**
-- 
+- day 24
+[Hermes]
+  1. SharePoint 문서를 Doc 추출기와 Parent-child Chunker로 처리해 `사규` 지식베이스에 인덱싱하고 하이브리드 검색 결과를 확인함. 다운로드 가능한 문서는 검색 결과 반환을 검증했으나, 다운로드 제한 문서는 Microsoft Graph 403 오류로 수집하지 못해 권한 및 정책 확인이 필요함.
+
+  2. `query → 지식 검색 → 결과 출력` 구조의 `사내 기술자료 검색` Workflow를 만들고 `search_internal_knowledge` 도구로 게시해 사내 기술자료 Agent에 연결함.
+
+  3. Telegram long polling 어댑터를 구현해 Dify Agent API와 연결하고 사용자 허용 목록, 개인 채팅 제한, 대화 상태 저장, 명령어 처리 및 긴 답변 분할 기능을 추가함. Dify 스트리밍 이벤트 중복으로 답변이 두 번 표시되는 문제를 수정했으며 단위 테스트 6개, Python 문법 검사, Docker Compose 구성 검사 및 이미지 빌드를 통과함.
+
+  4. SharePoint·Dify·Docker·Telegram 구성과 저장 위치, 장애 대응 및 서버 이전 방법을 운영 문서로 정리함. Telegram 토큰, Dify API 키, OAuth 정보 등 인증정보가 Git에서 제외되는 것을 확인함.
+
+미완료 및 확인사항:
+  - 수정 후 Telegram 실제 화면에서 중복 응답이 완전히 제거됐는지 최종 확인 필요
+  - 문서 형식별 검색 검증, SharePoint 수동 재인덱싱 절차, 자동 동기화, 권한별 지식 접근 제어, 백업·복원 및 Teams 연동은 후속 작업
+
+내일은 다음 내용을 확인해보려고한다.
+  - Telegram 중복 응답 최종 확인 및 PDF·DOCX·XLSX·PPTX 검색 검증
+  - 필요한 산출물만 선별해 Git에 추가하고 커밋
+
+오점: 미나리해장국
 
 ---
-
-
 > ### 📅 **2026-09-14 (Mon)**
 - day 24
 [Hermes]
