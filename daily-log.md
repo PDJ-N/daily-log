@@ -1,6 +1,24 @@
 > ### 📅 **2026-09-15 (Tue)**
 - day 25
 
+
+[Dify 작성]
+
+1. OpenWrt·Hermes 전용 계정 및 최소 권한 구성
+   - OpenWrt 25.12.1에서 rpcd/ubus HTTP JSON-RPC 구조와 ACL 역할을 점검함
+   - hermes 전용 계정에 시스템·네트워크 조회와 system UCI 제한 변경 권한만 부여하고 설정 저장 및 rpcd 재시작을 완료함
+   - 자연어 요청으로 공유기 호스트명을 변경하고 uci get/set/commit과 재조회로 적용을 검증함
+
+2. 공유기 로그 및 접속 도메인 확인 범위 점검
+   - DHCP 이벤트와 연결 장치의 IP·MAC·호스트명 확인 범위를 점검함
+   - 현재 DNS 질의 로그 미수집으로 당일 접속 도메인 복구가 불가함을 확인함
+   - 도메인별 기록을 위해 dnsmasq 질의 로그 활성화와 장기 보존(외부 syslog/별도 저장) 방안을 정리함
+
+3. Dify Agent 연동 및 사용 방식 확인
+   - Hermes의 ask_dify 흐름으로 로컬 Dify Agent 호출을 테스트하고 실제 호출 경로를 확인함
+   - Dify Agent·Workflow·SharePoint 지식 연동 구성을 점검함
+
+
 [Hermes]
 
 1. OpenWrt·Hermes 전용 계정 및 최소 권한 구성
