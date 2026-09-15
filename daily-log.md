@@ -17,7 +17,6 @@
 
   4. SharePoint·Dify·Docker·Telegram 구성과 저장 위치, 장애 대응 및 서버 이전 방법을 운영 문서로 정리함. Telegram 토큰, Dify API 키, OAuth 정보 등 인증정보가 Git에서 제외되는 것을 확인함.
 
-  5. 오늘 주간회의를 진행함
 
 미완료 및 확인사항:
   - 수정 후 Telegram 실제 화면에서 중복 응답이 완전히 제거됐는지 최종 확인 필요
