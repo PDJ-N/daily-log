@@ -24,22 +24,7 @@
    - 문서 확인 결과와 검증 명령 정리는 추가 확인이 필요함
 
 
-[Dify 작성]
 
-1. OpenWrt 공유기 연동 및 DNS·DHCP 로그 수집 구성 점검
-   - Hermes 전용 계정의 읽기 범위와 상태 조회 권한 확인함
-   - 공유기 시간 KST 설정, WAN DNS를 사내 DNS로 변경하고 appgit 도메인 경유 조회·443 연결 검증함
-   - dnsmasq 질의 로그와 외부 syslog 수집기 구성, 날짜별 events.jsonl 저장 및 도메인만 기록 범위 확인함
-
-2. Dify·SharePoint 권한 연동 검토 및 ACL-aware 대안 탐색
-   - 공식 문서 기준으로 권한 설계를 검토하고 기본 KB로는 사용자별 SharePoint 파일 ACL 자동 적용 불가함을 확인함
-   - M365 OAuth·Microsoft Graph 기반 BFF를 로컬에 구성해 로그인, 사용자 권한 조회, 콘텐츠 접근 검사, PDF 텍스트 추출, Dify Agent 연동을 검증함
-
-3. Hermes 내 Dify Workflow·Agent 작성 방식 정리
-   - Workflow·Agent 작성 절차, DSL 적용 가능 여부, 계정 인증 확인 내용을 정리하고 로그 자동화 요청 사항을 반영함
-
-4. 프로젝트 문서 및 검증 명령 점검
-   - AGENTS.md·package.json·주요 README를 확인하고 규칙과 검증 명령을 요약함
 
 
 [Hermes]
