@@ -1,30 +1,21 @@
 {
-  "date": "2026-09-16",
-  "sessions": 12,
+  "date": "2026-09-17",
+  "sessions": 5,
   "tasks": [
-    "OpenWrt 공유기 연동을 점검하고 Hermes 전용 계정의 읽기 범위, DNS·DHCP 조회 및 로그 수집 구조를 확인함.",
-    "공유기 시간을 KST로 맞추고 WAN DNS를 사내 DNS로 설정한 뒤 appgit 도메인의 공유기 경유 조회와 443 연결을 검증함.",
-    "dnsmasq 질의 로그와 외부 syslog 수집기를 구성·점검하고 날짜별 events.jsonl 저장 구조 및 도메인만 기록하는 범위를 확인함.",
-    "Dify·SharePoint 권한 설계를 공식 문서 기준으로 검토하고, Dify 기본 기능만으로는 사용자별 SharePoint 파일 ACL을 기존 RAG 검색에 자동 적용할 수 없음을 확인함.",
-    "M365 OAuth·Microsoft Graph 기반 BFF를 로컬에 구성하여 로그인, 사용자 권한 검색, 콘텐츠 접근 검사, PDF 텍스트 추출 및 Dify Agent 연동을 검증함.",
-    "Dify Workflow·Agent를 Hermes에서 작성하는 방법과 DSL 방식, 계정 인증 관련 확인 작업을 정리함.",
-    "프로젝트 작업 전 AGENTS.md·package.json·주요 README를 확인하고 규칙과 검증 명령을 요약하는 절차를 진행함."
+    "SharePoint OAuth 권한 흐름을 정리하고, 데이터소스 연동 M365 계정의 OAuth 권한을 따르는 구조를 그림으로 표현할 방향을 정리함.",
+    "OpenWrt 2026-09-16 접속 로그에서 게임 관련 DNS 질의를 확인하고 넥슨 관련 도메인과 요청 기기를 식별함.",
+    "지금까지의 Dify·SharePoint·OAuth 및 Hermes 작업을 바탕으로 클로드 코드에 요청할 DSL 파일 주제와 기획 방향을 정리함."
   ],
   "issues": [
-    "공유기 dnsmasq 질의 로그가 모든 클라이언트에서 안정적으로 수집되는지와 장기 보존·날짜별 조회 구성이 아직 최종 확정되지 않음.",
-    "Dify 기본 Knowledge Base에 저장된 전사 문서에 로그인 사용자의 SharePoint 파일별 ACL을 자동 적용하는 기능은 구현되지 않음.",
-    "로컬 BFF는 검증용이며 HTTPS, 토큰 보호 저장소, 만료·로그아웃, Dify 직접 접근 차단 등 운영 보안 강화가 필요함.",
-    "현재는 본인 계정만 사용할 수 있어 서로 다른 사용자 권한으로 검색 결과가 달라지는지 검증하지 못함.",
-    "프로젝트 규칙·검증 명령 요약 작업은 수집 시점에 진행 중임."
+    "프로젝트 문서의 최신 공식 설치 명령으로 갱신하는 작업은 수집 시점에 중단되어 완료 여부를 확인하지 못함.",
+    "DSL 파일은 주제 기획 단계로, 실제 파일 작성·Dify import·실행 검증은 아직 확인되지 않음."
   ],
   "manual_notes": [
-    "사용자가 요청한 로그자동화 관련 Dify Workflow·Agent 작성 방법, DSL 구성 가능 여부 및 계정 인증 확인 내용을 반영함."
+    "인사 세션은 업무 기록에서 제외함."
   ],
   "tomorrow": [
-    "OpenWrt DNS 질의 로그가 실제 접속 도메인별로 수집되는지와 재부팅 후 수집기 자동 실행 여부를 확인함.",
-    "Dify 기본 기능과 외부 ACL-aware RAG/BFF·Custom OAuth Tool 대안을 구분해 다음 구현 방향을 결정함.",
-    "운영 전제의 BFF 보안 요구사항과 사용자별 권한 테스트 계획을 정리함.",
-    "프로젝트의 AGENTS.md, package.json, 주요 README를 읽은 결과와 검증 명령을 확인함."
+    "DSL 주제를 하나 선택해 실제 파일 작성과 Dify import·실행 결과를 확인함.",
+    "프로젝트 문서의 docs/markdown 범위와 최신 공식 문서 링크를 다시 확인하고 검증 명령을 실행함."
   ],
   "lunch": ""
 }
