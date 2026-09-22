@@ -1,19 +1,19 @@
 {
   "date": "2026-09-22",
-  "sessions": 1,
+  "sessions": 3,
   "tasks": [
-    "WHOIS·RDAP 조회 방식과 Registry·Registrar·ICANN 기반 도메인 등록 구조를 학습하고 발표자료로 정리함.",
-    "daejinpark.kro.kr의 A 레코드를 카페24 호스팅 서버 IP 112.175.85.205에 연결하고 nslookup 및 브라우저 접속으로 검증함.",
-    "도메인·DNS·웹호스팅의 역할과 DNS 이후 L3 패킷 전달 과정을 정리함."
+    "Dify 및 domain 스터디 리뷰 준비를 진행함.",
+    "Everything Claude Code 및 Ponytail 문서를 읽음.",
+    "WHOIS·RDAP, Registry·Registrar·ICANN 기반 도메인 등록 구조를 학습하고, 개인 도메인과 웹호스팅 연결 및 DNS·L3 역할을 정리함."
   ],
   "issues": [
-    "카페24 기본 설치 화면까지 확인했으며, 직접 만든 웹페이지 업로드와 HTTPS 인증서 적용은 아직 진행하지 않음."
+    "웹호스팅 기본 설치 화면까지 확인했으며, 직접 만든 웹페이지 업로드와 HTTPS 인증서 적용은 아직 진행하지 않음."
   ],
   "manual_notes": [
-    "사용자가 도메인 발표자료 작성과 daejinpark.kro.kr 연결 실습 결과를 별도로 알림."
+    "사용자가 Dify/domain 리뷰 준비와 문서 읽기 내용을 별도로 알림."
   ],
   "tomorrow": [
-    "직접 만든 웹페이지를 카페24 서버에 업로드하고 도메인 접속을 확인함.",
+    "직접 만든 웹페이지를 웹호스팅 서버에 업로드하고 도메인 접속을 확인함.",
     "HTTPS 인증서를 적용하고 접속 상태를 확인함."
   ],
   "lunch": "삼계탕"
