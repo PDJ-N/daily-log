@@ -2,6 +2,21 @@
 - day 30
 
 
+
+[Dify 작성]
+
+1. Dify 및 domain 스터디 리뷰 준비
+   - Dify 리뷰와 domain 스터디 리뷰 준비를 진행함.
+
+2. Claude Code 관련 문서 학습
+   - Everything Claude Code 및 Ponytail 문서를 읽음.
+
+3. 도메인 등록·관리와 웹호스팅 연결 학습
+   - WHOIS·RDAP 조회 방식과 Registry·Registrar·ICANN 기반 도메인 등록 구조를 정리함.
+   - 개인 도메인과 웹호스팅 연결을 진행하고 DNS·웹호스팅의 역할과 L3 패킷 전달 과정을 학습함.
+   - 웹호스팅 기본 설치 화면까지 확인했으며, 직접 만든 웹페이지 업로드와 HTTPS 인증서 적용은 아직 진행하지 않음.
+
+
 [Dify 작성]
 
 1. Dify 및 domain 스터디 리뷰 준비
