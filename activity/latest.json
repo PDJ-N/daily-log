@@ -1,20 +1,10 @@
 {
-  "date": "2026-09-22",
-  "sessions": 3,
-  "tasks": [
-    "Dify 및 domain 스터디 리뷰 준비를 진행함.",
-    "Everything Claude Code 및 Ponytail 문서를 읽음.",
-    "WHOIS·RDAP, Registry·Registrar·ICANN 기반 도메인 등록 구조를 학습하고, 개인 도메인과 웹호스팅 연결 및 DNS·L3 역할을 정리함."
-  ],
-  "issues": [
-    "웹호스팅 기본 설치 화면까지 확인했으며, 직접 만든 웹페이지 업로드와 HTTPS 인증서 적용은 아직 진행하지 않음."
-  ],
+  "date": "2026-09-29",
+  "sessions": 0,
+  "tasks": [],
+  "issues": [],
   "manual_notes": [
-    "사용자가 Dify/domain 리뷰 준비와 문서 읽기 내용을 별도로 알림."
+    "오늘 활동 세션이 없습니다."
   ],
-  "tomorrow": [
-    "직접 만든 웹페이지를 웹호스팅 서버에 업로드하고 도메인 접속을 확인함.",
-    "HTTPS 인증서를 적용하고 접속 상태를 확인함."
-  ],
-  "lunch": "삼계탕"
+  "tomorrow": []
 }
