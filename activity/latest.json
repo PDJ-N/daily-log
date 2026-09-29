@@ -1,10 +1,21 @@
 {
-  "date": "2026-09-29",
-  "sessions": 0,
-  "tasks": [],
-  "issues": [],
-  "manual_notes": [
-    "오늘 활동 세션이 없습니다."
+  "tasks": [
+    "Dify 점메추 워크플로를 유지보수함: 공휴일 메일 전송 제한과 식당별 가중치 조절을 반영함",
+    "대칭 암호화·비대칭 암호화·해시의 개념과 차이를 학습함",
+    "OpenClaw 환경을 Hermes로 마이그레이션하고, 이전된 스킬·설정·아카이브·백업을 확인함"
   ],
-  "tomorrow": []
+  "issues": [
+    "OpenClaw의 다중 에이전트·개별 workspace·직원별 라우팅은 자동 마이그레이션되지 않음을 확인함; Hermes에서 동일한 구성을 하려면 별도 재구성이 필요함"
+  ],
+  "manual_notes": [
+    "마이그레이션된 항목과 미이전 항목의 범위를 점검함",
+    "점심: 단청 김치찌개 김치찜 (김치찜)"
+  ],
+  "tomorrow": [
+    "Hermes에서 여러 직원의 에이전트·workspace·라우팅을 어떻게 구성할지 검토함"
+  ],
+  "date": "2026-09-29",
+  "session_count": 4,
+  "collection_window": "2026-09-28 18:00:00 ~ 2026-09-29 17:59:59 KST",
+  "source": "Hermes daily review"
 }
