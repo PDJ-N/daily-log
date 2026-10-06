@@ -4,11 +4,18 @@
   "day": 36,
   "source": "hermes",
   "generated_at": "2026-10-06T18:00:00+09:00",
-  "lunch": "",
-  "tasks": [],
-  "issues": [],
+  "lunch": "참진짜장짬뽕 수내점 (간짜장, 짬뽕밥)",
+  "tasks": [
+    "로컬 Dify Docker 볼륨 경로 지정 실습: local_sandbox의 named volume 2개를 저장소 내부 bind mount 경로로 전환하고, 데이터 복사·컨테이너 재생성·실제 bind mount 및 데이터 일치를 확인함.",
+    "Domain Study 3 리뷰: subDomain 관리, 인증서 적용, 암호화 알고리즘 및 해시 내용을 리뷰함.",
+    "공유기 관리 App: 초기 UI 구상을 완료하고 기능 테스트를 진행 중임."
+  ],
+  "issues": [
+    "공유기 관리 App 기능 테스트가 진행 중임."
+  ],
   "manual_notes": [
-    "오늘 활동 세션이 없습니다."
+    "사용자 제공 수동 업무 메모를 반영함.",
+    "로컬 Dify 볼륨 경로 지정 실습 관련 세션 결과를 반영함."
   ],
   "tomorrow": []
 }
