@@ -1,6 +1,19 @@
 > ### 📅 **2026-10-06 (Tue)**
 - day 36
 
+
+[Dify 작성]
+
+1. 로컬 Dify Docker 볼륨 경로 지정 실습
+   - `local_sandbox`의 named volume 2개를 저장소 내부 bind mount 경로로 전환하고, 데이터를 복사한 뒤 컨테이너 재생성 및 실제 bind mount·데이터 일치를 확인함.
+
+2. Domain Study 3 리뷰
+   - subDomain 관리, 인증서 적용, 암호화 알고리즘 및 해시 내용을 리뷰함.
+
+3. 공유기 관리 App
+   - 초기 UI 구상을 완료하고 기능 테스트를 진행 중임.
+
+
 [Hermes]
 
 1. 로컬 Dify Docker 볼륨 경로 지정 실습
