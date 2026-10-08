@@ -1,5 +1,32 @@
 > ### 📅 **2026-10-08 (Thu)**
-- 
+- day 38
+[Hermes]
+
+1. Dify 서버 local_sandbox 저장 구조 전환 및 동작 검증
+   - `local_sandbox`의 named volume을 bind mount 경로로 전환하고, 컨테이너 재생성 후 bind mount·양방향 파일 접근·권한 동작을 확인함.
+   - Dify 본체 컨테이너의 기존 운영 상태가 유지되고 `local_sandbox`가 정상 동작하는 것을 확인함.
+   - 작업 중 만든 임시 검증 파일을 정리하고, 롤백에 필요한 원본 볼륨과 compose 백업은 보존함.
+
+2. Dify Docker 프로젝트 이름 변경 사전 점검
+   - 컨테이너·네트워크 이름이 compose 프로젝트 이름에서 만들어지는 구조와 Portainer Stack 표시 방식을 확인함.
+   - nginx-proxy가 Docker 소켓과 `VIRTUAL_HOST`를 사용해 Dify nginx 컨테이너를 자동 감지·설정하는 구조임을 확인함.
+   - 외부 `nginx-proxy` 네트워크를 유지하면 프로젝트 이름 변경 후에도 프록시 연결을 재구성할 수 있는 조건을 확인함.
+
+3. Hermes의 OpenWrt SSID·DNS 변경 기록 확인
+   - 기존 작업 기록을 확인한 결과, Hermes가 SSID를 변경한 기록은 없었고 DNS 서버 주소를 변경한 것도 아닌 것으로 정리함.
+   - 실제 기록에 남은 OpenWrt 변경 항목과 해당 앱에 필요한 계정·권한 구성을 구분함.
+
+미완료 및 확인사항:
+  - Dify compose 프로젝트 이름 변경은 아직 실행하지 않음. 서버가 내려간 뒤 남은 컨테이너·볼륨과 bind 데이터 상태를 다시 확인한 후 진행해야 함.
+  - 프로젝트 이름 변경 후 Dify 웹 접속과 nginx-proxy 재구성 상태를 최종 검증해야 함.
+  - OpenWrt 관리 App의 기능 테스트는 계속 진행 중임.
+
+내일은 다음 내용을 확인해보려고 한다.
+  - Dify 서버의 현재 down 상태, 남은 볼륨 및 bind 데이터 상태를 재확인하고 프로젝트 이름 변경을 진행함.
+  - 이름 변경 후 컨테이너·네트워크·nginx-proxy·웹 접속 상태를 검증함.
+  - OpenWrt 관리 App 기능 테스트를 이어감.
+
+오점:
 
 ---
 
