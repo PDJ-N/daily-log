@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-08",
+  "weekday": "Thu",
+  "day": 38,
+  "source": "hermes",
+  "generated_at": "2026-10-08T18:00:00+09:00",
+  "lunch": "",
+  "tasks": [
+    "Dify 서버 local_sandbox 저장 구조 전환 및 동작 검증: named volume을 bind mount로 전환하고 컨테이너 재생성·bind mount·양방향 파일 접근·권한 동작을 확인함. Dify 본체 운영 상태 유지와 임시 검증 파일 정리도 확인함.",
+    "Dify Docker 프로젝트 이름 변경 사전 점검: compose 프로젝트 이름이 컨테이너·네트워크 이름에 미치는 영향과 Portainer Stack 표시를 확인하고, nginx-proxy의 Docker 소켓 기반 자동 감지 및 외부 네트워크 조건을 확인함.",
+    "Hermes의 OpenWrt SSID·DNS 변경 기록 확인: SSID 변경 및 DNS 서버 주소 변경 기록이 없음을 확인하고 실제 기록의 변경 항목과 계정·권한 구성을 구분함."
+  ],
+  "issues": [
+    "Dify compose 프로젝트 이름 변경은 아직 실행하지 않았으며, 현재 down 상태·남은 볼륨·bind 데이터 재확인이 필요함.",
+    "프로젝트 이름 변경 후 Dify 웹 접속과 nginx-proxy 재구성 상태의 최종 검증이 필요함.",
+    "OpenWrt 관리 App 기능 테스트는 계속 진행 중임."
+  ],
+  "manual_notes": [],
+  "tomorrow": [
+    "Dify 서버 상태와 데이터를 재확인한 뒤 프로젝트 이름 변경을 진행하고, 컨테이너·네트워크·nginx-proxy·웹 접속을 검증함.",
+    "OpenWrt 관리 App 기능 테스트를 이어감."
+  ]
+}
