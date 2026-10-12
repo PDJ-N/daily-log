@@ -3,12 +3,14 @@
   "weekday": "Mon",
   "day": 39,
   "source": "hermes",
-  "generated_at": "2026-10-12T18:00:00+09:00",
-  "lunch": "",
-  "tasks": [],
-  "issues": [],
-  "manual_notes": [
-    "오늘 활동 세션이 없습니다."
+  "generated_at": "2026-10-12T18:00:40+09:00",
+  "lunch": "메콩타이 분당수내점 (쌀국수)",
+  "tasks": [
+    "Daily Review가 예상치 못한 시각에 실행된 원인을 WSL 기동 시 밀린 cron 회차가 catch-up된 것으로 확인하고, 활동이 없을 때는 기록·GitHub 갱신·메일 발송을 생략하도록 수집 스크립트와 cron 지침을 보완함.",
+    "공용 서버의 Dify Compose 프로젝트를 docker에서 dify로 구분하고, 서버 관례에 맞춰 16개 컨테이너 이름을 dify_서비스 형식으로 변경함. 원본 docker-compose.yaml은 유지하고 서버별 설정은 docker-compose.override.yaml로 분리했으며, 컨테이너·Stack·네트워크·프록시·HTTPS·데이터 유지 상태를 확인함.",
+    "Dify 이름 변경 작업을 설명하기 위해 override 파일의 역할, -1 제거 근거, 업데이트 시 설정이 유지되는 구조를 정리함."
   ],
+  "issues": [],
+  "manual_notes": [],
   "tomorrow": []
 }
