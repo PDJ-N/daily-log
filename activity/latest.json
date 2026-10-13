@@ -1,16 +1,20 @@
 {
-  "date": "2026-10-12",
-  "weekday": "Mon",
-  "day": 39,
+  "date": "2026-10-13",
+  "weekday": "Tue",
+  "day": 40,
   "source": "hermes",
-  "generated_at": "2026-10-12T18:00:40+09:00",
-  "lunch": "메콩타이 분당수내점 (쌀국수)",
+  "generated_at": "2026-10-13T18:02:41.843196+09:00",
+  "lunch": "단청 김치찌개 김치찜(김치짐)",
   "tasks": [
-    "Daily Review가 예상치 못한 시각에 실행된 원인을 WSL 기동 시 밀린 cron 회차가 catch-up된 것으로 확인하고, 활동이 없을 때는 기록·GitHub 갱신·메일 발송을 생략하도록 수집 스크립트와 cron 지침을 보완함.",
-    "공용 서버의 Dify Compose 프로젝트를 docker에서 dify로 구분하고, 서버 관례에 맞춰 16개 컨테이너 이름을 dify_서비스 형식으로 변경함. 원본 docker-compose.yaml은 유지하고 서버별 설정은 docker-compose.override.yaml로 분리했으며, 컨테이너·Stack·네트워크·프록시·HTTPS·데이터 유지 상태를 확인함.",
-    "Dify 이름 변경 작업을 설명하기 위해 override 파일의 역할, -1 제거 근거, 업데이트 시 설정이 유지되는 구조를 정리함."
+    "Dify Compose 설정 21곳을 docker-compose.override.yaml에서 docker-compose.yaml로 이전하고, 이전·이후 docker compose config 결과 동일 및 16개 컨테이너 정상 실행을 확인함.",
+    "기존 WSD 프린터를 변경하지 않고 내 Windows PC에 프린터 IP의 RAW TCP 9100 포트와 별도 프린터 항목을 추가함. 프린터 본체·회사망 설정은 변경하지 않음.",
+    "도메인 app 테스트 진행 완료."
   ],
-  "issues": [],
-  "manual_notes": [],
+  "issues": [
+    "새로 추가한 프린터의 실제 테스트 페이지 출력은 사용자가 확인해야 함."
+  ],
+  "manual_notes": [
+    "사용자 제공 수동 업무 메모: 도메인 app 테스트 진행 완료"
+  ],
   "tomorrow": []
 }
