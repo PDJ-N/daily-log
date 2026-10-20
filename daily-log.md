@@ -1,9 +1,11 @@
 > ### 📅 **2026-10-20 (Tue)**
 - day 45
 [Hermes]
-  1. 
-  2. 
-  3. 
+  1. sf페이지 리뷰 진행
+     - 전체적인 구성은 완료했으나ai 사용하지않고 만들어 어떤부분이 내가 부족한지 확인해봐야할듯함
+  2. docker volumes, 심볼릭 링크, 하드링크
+     -서버 pc에 올린 dify volume 관리 심볼릭 링크 적용 진행
+     -권한 부족으로 보류됨
 
 미완료 및 확인사항:
   - PostgreSQL pgdata, Weaviate DB 파일, Redis dump.rdb, 샌드박스 .local 등 컨테이너 root 또는 다른 UID 소유 데이터에서 Permission denied가 발생해 마이그레이션이 완료되지 않음
