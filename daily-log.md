@@ -1,5 +1,18 @@
 > ### 📅 **2026-10-20 (Tue)**
-- 
+- day 45
+[Hermes]
+  1. Dify 데이터를 외장 디스크로 옮기기 위한 사전 점검과 일반 사용자 권한의 복사 시도를 진행함
+  2. 컨테이너를 정지한 상태에서 /home/jin/dify/docker/volumes 내용을 /mnt/ext8tb/dify/volumes로 복사하려고 했으나 권한 제한을 확인함
+
+미완료 및 확인사항:
+  - PostgreSQL pgdata, Weaviate DB 파일, Redis dump.rdb, 샌드박스 .local 등 컨테이너 root 또는 다른 UID 소유 데이터에서 Permission denied가 발생해 마이그레이션이 완료되지 않음
+  - volumes 심볼릭 링크 생성, 원본 정리, Dify 재기동 및 정상 동작 검증은 아직 하지 않음
+
+내일은 다음 내용을 확인해보려고한다.
+  - 승인된 root/sudo 권한으로 접근 제한 데이터를 다시 복사하고 전체 복사 여부를 검증함
+  - 복사가 확인된 뒤에만 원래 volumes 경로를 외장 디스크 경로로 연결하고 Dify를 재기동해 확인함
+
+오점:
 
 ---
 
