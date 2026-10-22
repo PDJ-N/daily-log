@@ -1,16 +1,20 @@
 > ### 📅 **2026-10-22 (Thu)**
 - day 47
 [Hermes]
-  1. 로그자동화 결과 확인
-     - 2026-10-21 일일 리뷰를 완료하고 GitHub `PDJ-N/daily-log`의 `daily-log.md` day 46 섹션과 `activity/latest.json`, `activity/archive/2026-10-21.json`을 갱신함.
-     - GitHub read-back 검증과 완료 메일 발송까지 성공함.
-  2. Dify 서버 확인사항
-     - 실제 서버에서 compose 디렉터리의 `docker compose up -d` 실행 및 `docker compose ps`를 통한 전체 서비스 상태 확인은 아직 기록되지 않음.
-  3. 다음 작업
-     - 실제 서버에서 Dify 서비스를 재기동하고 모든 컨테이너가 `running`/`healthy`인지 확인함.
+  1. dify 리뷰 진행
+     -신사업팀 과장님께 dify관련하여 설명드리고 활용방안을 보여드림
+  2. sf프로젝트
+     - 패키지 조사 및 be프로젝트 구성 완성 fe 부분 시작
+    
+  3. Ontology
+    - CS에서의 ontology 를 배움 컴퓨터에서 다룰수 있게 표현 한 모델로 개념의 유형이나 사용상의 제약조건들을 명시적으로 정의한기술
+    - 어느 특정 개인에게 국한 되는 것이 아닌 그룹 구성원 모두가 동의하는 개념
+ 
+  4. SSOT(Single Source of Truth)
+     -같은 정보의 기준이 되는 관리 원본을 정하고 다른 곳이 그 기준을 참조 하게 하는 원칙.
+     
 
-
-오점: 
+오점: 본가할매순대국 수내점 (순대국)
 
 ---
 
