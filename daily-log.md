@@ -1,5 +1,21 @@
 > ### 📅 **2026-10-23 (Fri)**
-- 
+- day 48
+[Hermes]
+  1. 새 회사 서버에 공식 Docker Engine과 Compose를 설치하고 hello-world로 동작을 검증함. Dify 1.17.1 신규 기동 절차를 진행함
+  2. 기존 Dify 서버의 전체 데이터를 무리하게 이전하지 않고 데모용 DSL만 옮기며, 도메인 적용은 추후 진행하는 방향을 정함
+  3. Windows MySQL 서비스와 Docker MySQL의 실행 위치를 확인하고, DBeaver에서 sfPractice가 보이지 않는 원인이 sf 계정 권한임을 확인함
+
+미완료 및 확인사항:
+  - 신규 Dify의 최종 docker compose ps 상태와 웹 접속 성공 여부는 대화에서 확인되지 않음
+  - Dify 도메인/DNS 및 HTTPS 적용은 도메인 정보가 정해진 뒤 진행해야 함
+  - DBeaver의 sf 계정에 sfPractice 권한을 부여하고 재접속한 결과와 DATABASE_URL 설정은 아직 확인되지 않음
+
+내일은 다음 내용을 확인해보려고한다.
+  - 신규 Dify 컨테이너 전체 상태와 웹 접속을 확인하고 데모 DSL을 가져옴
+  - 도메인을 받으면 DNS, Dify 환경변수, HTTPS 적용 절차를 진행함
+  - MySQL sf 계정 권한과 DBeaver 표시 여부를 확인한 뒤 DATABASE_URL 설정을 마무리함
+
+오점: 이황식당 (라멘, 마제소바)
 
 ---
 
