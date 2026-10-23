@@ -1,10 +1,10 @@
 > ### 📅 **2026-10-23 (Fri)**
 - day 48
 [Hermes]
-  1. 새 회사 서버에 공식 Docker Engine과 Compose를 설치하고 hello-world로 동작을 검증함. Dify 1.17.1 신규 기동 절차를 진행함
+  1. 95pc Docker Engine과 Compose를 설치하고 hello-world로 동작을 검증함. Dify 1.17.1 신규 기동 절차를 진행함
   2. 기존 Dify 서버의 전체 데이터를 무리하게 이전하지 않고 데모용 DSL만 옮기며, 도메인 적용은 추후 진행하는 방향을 정함
   3. Windows MySQL 서비스와 Docker MySQL의 실행 위치를 확인하고, DBeaver에서 sfPractice가 보이지 않는 원인이 sf 계정 권한임을 확인함
-
+  
 미완료 및 확인사항:
   - 신규 Dify의 최종 docker compose ps 상태와 웹 접속 성공 여부는 대화에서 확인되지 않음
   - Dify 도메인/DNS 및 HTTPS 적용은 도메인 정보가 정해진 뒤 진행해야 함
