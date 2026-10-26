@@ -1,24 +1,23 @@
 {
-  "date": "2026-10-23",
-  "weekday": "Fri",
-  "day": 48,
+  "date": "2026-10-26",
+  "weekday": "Mon",
+  "day": 49,
   "source": "hermes",
-  "generated_at": "2026-10-23T18:02:50+09:00",
-  "lunch": "이황식당 (라멘, 마제소바)",
+  "generated_at": "2026-10-26T18:20:00+09:00",
+  "lunch": "신사골감자탕 수내점(뼈해장국)",
   "tasks": [
-    "새 회사 서버에 공식 Docker Engine과 Compose를 설치하고 hello-world로 동작을 검증함. Dify 1.17.1 신규 기동 절차를 진행함",
-    "기존 Dify 서버의 전체 데이터를 무리하게 이전하지 않고 데모용 DSL만 옮기며, 도메인 적용은 추후 진행하는 방향을 정함",
-    "Windows MySQL 서비스와 Docker MySQL의 실행 위치를 확인하고, DBeaver에서 sfPractice가 보이지 않는 원인이 sf 계정 권한임을 확인함"
+    "95pc에 Dify를 올리고 도메인을 추가해 프로젝트에서 사용하도록 구성하고, 신규 사용자 계정 생성을 완료함",
+    "SF 프로젝트 BE에 drizzle ORM을 적용하고 스키마 마이그레이션을 진행함",
+    "SF 프로젝트 Vue 프로젝트 세팅을 진행함",
+    "객체지향 프로그래밍 개념을 복습함"
   ],
   "issues": [
-    "신규 Dify의 최종 docker compose ps 상태와 웹 접속 성공 여부는 대화에서 확인되지 않음",
-    "Dify 도메인/DNS 및 HTTPS 적용은 도메인 정보가 정해진 뒤 진행해야 함",
-    "DBeaver의 sf 계정에 sfPractice 권한을 부여하고 재접속한 결과와 DATABASE_URL 설정은 아직 확인되지 않음"
+    "현재 Dify 도메인이 http로 운영 중이며, 데이터소스 연동 작업에서 SharePoint 리다이렉션 URL이 https만 허용함을 확인함"
   ],
-  "manual_notes": [],
+  "manual_notes": [
+    "자동 수집 세션이 없어 사용자가 직접 전달한 작업 내용을 반영함"
+  ],
   "tomorrow": [
-    "신규 Dify 컨테이너 전체 상태와 웹 접속을 확인하고 데모 DSL을 가져옴",
-    "도메인을 받으면 DNS, Dify 환경변수, HTTPS 적용 절차를 진행함",
-    "MySQL sf 계정 권한과 DBeaver 표시 여부를 확인한 뒤 DATABASE_URL 설정을 마무리함"
+    "도메인에 https를 적용해 SharePoint 리다이렉션 URL 연동 문제를 이어서 해결함"
   ]
 }
