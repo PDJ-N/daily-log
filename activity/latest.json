@@ -1,16 +1,17 @@
 {
-  "date": "2026-10-29",
-  "weekday": "Thu",
-  "day": 52,
+  "date": "2026-10-30",
+  "weekday": "Fri",
+  "day": 53,
   "source": "hermes",
-  "generated_at": "2026-10-29T18:00:32+09:00",
+  "generated_at": "2026-10-30T18:00:00+09:00",
   "lunch": "",
   "tasks": [
-    "JavaScript의 while / for 반복문, switch 문, 함수 선언식·표현식·화살표 함수 개념을 학습함"
+    "JavaScript의 while / for 반복문, switch 문, 함수 선언식·표현식·화살표 함수 개념을 학습함",
+    "내부평가 공부로 화면설계와 제품 소프트웨어 패키징을 진행함"
   ],
   "issues": [],
-  "manual_notes": [],
-  "tomorrow": [
-    "오늘 학습한 JavaScript 개념을 이어서 복습함"
-  ]
+  "manual_notes": [
+    "내부평가 공부: 화면설계, 제품소프트웨어 패키징"
+  ],
+  "tomorrow": []
 }
