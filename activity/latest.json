@@ -3,12 +3,15 @@
   "weekday": "Tue",
   "day": 55,
   "source": "hermes",
-  "generated_at": "2026-11-03T15:31:16+09:00",
+  "generated_at": "2026-11-03T18:01:52+09:00",
   "lunch": "참진짜장짬뽕 수내점",
-  "tasks": [],
-  "issues": [],
-  "manual_notes": [
-    "수집된 질문·답변에 업무 내용이 없어 기록할 완료 작업 없음"
+  "tasks": [
+    "SF 프로젝트: 비밀번호 해싱(SHA-256) 및 공정 스키마 추가 작성 진행",
+    "Daily Review 크론 스케줄을 15:30에서 매일 18:00(KST)로 변경"
   ],
+  "issues": [
+    "SF 프로젝트의 비밀번호 해싱 및 공정 스키마 추가 작성은 진행 중인 작업으로 후속 확인 필요"
+  ],
+  "manual_notes": [],
   "tomorrow": []
 }
