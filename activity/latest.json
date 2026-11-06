@@ -1,25 +1,14 @@
 {
-  "date": "2026-11-05",
-  "weekday": "Thu",
-  "day": 57,
+  "date": "2026-11-06",
+  "weekday": "Fri",
+  "day": 58,
   "source": "hermes",
-  "generated_at": "2026-11-05T18:00:00+09:00",
+  "generated_at": "2026-11-06T18:01:04+09:00",
   "lunch": "",
   "tasks": [
-    "Quick start 온보딩에서 게이트웨이 데몬 등록이 생략될 수 있는 원인과 install.sh, ~/.openclaw, systemd 서비스의 역할을 구분함",
-    "koritab clean clone 빌드의 JsonWebKey 타입 충돌 원인과 --noCheck 우회 및 crypto.JsonWebKey[] 수정 방향을 확인함",
-    "dist 삭제 뒤 게이트웨이 502 발생 원인을 종료 지연으로 확인하고 강제 정리·재기동으로 포트가 다시 열린 상태를 확인함",
-    "코리탭 관리자 화면과 게이트웨이 연결 문제를 점검함"
+    "웹 서버와 WAS의 역할, 처리 대상, 주요 종류와 정적·동적 콘텐츠 처리 차이를 정리함"
   ],
-  "issues": [
-    "JsonWebKey 타입 오류의 근본 수정과 clean clone 기준 정상 빌드 검증이 아직 필요함",
-    "코리탭 재접속 및 실제 대화 기능의 최종 사용자 확인이 대화에서 확인되지 않음",
-    "192.168.1.1 LuCI 공유기 접속 성공 여부가 확인되지 않음"
-  ],
+  "issues": [],
   "manual_notes": [],
-  "tomorrow": [
-    "koritab 타입 오류 수정 후 정상 빌드·테스트 수행",
-    "코리탭 재접속 및 실제 대화 기능 확인",
-    "공유기 접속 문제 계속 점검"
-  ]
+  "tomorrow": []
 }
