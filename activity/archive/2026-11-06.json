@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-06",
+  "weekday": "Fri",
+  "day": 58,
+  "source": "hermes",
+  "generated_at": "2026-11-06T18:01:04+09:00",
+  "lunch": "",
+  "tasks": [
+    "웹 서버와 WAS의 역할, 처리 대상, 주요 종류와 정적·동적 콘텐츠 처리 차이를 정리함"
+  ],
+  "issues": [],
+  "manual_notes": [],
+  "tomorrow": []
+}
