@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-13",
+  "weekday": "Fri",
+  "day": 63,
+  "source": "hermes",
+  "generated_at": "2026-11-13T18:00:00+09:00",
+  "lunch": "",
+  "tasks": [
+    "수집된 대화에서 전일 Daily Review 완료 보고를 확인함. GitHub main 반영·재조회 검증 및 완료 메일 발송 성공을 확인함."
+  ],
+  "issues": [],
+  "manual_notes": [],
+  "tomorrow": []
+}
