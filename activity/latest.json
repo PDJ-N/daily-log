@@ -1,16 +1,19 @@
 {
-  "date": "2026-11-20",
-  "weekday": "Fri",
-  "day": 66,
+  "date": "2026-11-23",
+  "weekday": "Mon",
+  "day": 67,
   "source": "hermes",
-  "generated_at": "2026-11-20T18:00:00+09:00",
+  "generated_at": "2026-11-23T18:01:09+09:00",
   "lunch": "",
   "tasks": [
-    "2026-11-19 18:00부터 2026-11-20 17:59까지의 수집 범위에서 Daily Review 세션 1개를 확인함.",
-    "별도의 실제 작업 내용은 확인되지 않았으며, 이전 Daily Review의 GitHub 반영·재조회 검증 및 완료 메일 발송 성공 보고를 확인함."
+    "Hermes Web UI를 실행하고 dashboard 상태, 127.0.0.1:9119 LISTEN, HTTP 200 OK를 확인함.",
+    "프로필 분리와 다중 사용자 로그인·권한 관리의 차이를 확인하고 설명함."
   ],
-  "issues": [],
+  "issues": [
+    "관리자 전용 페이지의 세부 기능과 실제 다중 사용자 운영 방식은 추가 확인되지 않음."
+  ],
   "manual_notes": [],
-  "tomorrow": [],
-  "sessions": 1
+  "tomorrow": [
+    "다음 작업 계획은 수집된 대화에 기록되지 않음."
+  ]
 }
