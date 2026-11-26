@@ -1,6 +1,28 @@
 > ### 📅 **2026-11-26 (Thu)**
-- 
+- day 70
+[Hermes]
 
+1. 로컬 LLM 연결 및 Hermes 모델 전환
+   - 192.168.5.94의 Qwen·Gemma vLLM 엔드포인트를 확인하고 Hermes에 두 모델 alias를 등록함.
+   - 기본 모델을 Qwen 로컬 모델로 지정한 뒤 실제 호출이 성공하는 것을 검증함.
+
+2. 로컬 Dify 모델 연동 및 workflow generator 검증
+   - Dify 1.17.1 소스의 `api/core/workflow/generator/` 구조를 확인하고 Qwen·Gemma LLM과 임베딩 모델 등록 상태를 점검함.
+   - 생성기 테스트와 모델별 호출 결과를 확인함.
+
+3. Dify DSL 생성·검증 및 노드형 자동화 방향 정리
+   - 고객 문의 분류 워크플로 DSL을 생성하고 YAML 구조·노드·엣지·내장 code 노드의 환불 우선/배송/일반 분류 로직을 검증함.
+   - 생성된 DSL 파일을 `/home/jin/dify-gen`에 보관하고, planner·builder·runner 구조를 채팅 기반 자동 생성과 직접 구성 기능에 활용하는 방향을 검토함.
+
+미완료 및 확인사항:
+  - Dify 내부 workflow generator를 실제 서비스에 어느 범위까지 가져올지 Codex로 소스 구조를 추가 확인해야 함.
+  - 채팅 기반 자동 생성과 직접 구성 기능의 실제 제품 통합 및 로컬 LLM 품질 검증은 계속 진행해야 함.
+
+내일은 다음 내용을 확인해보려고한다.
+  - Dify 내부 workflow generator의 planner·builder·runner 구현을 Codex로 추가 조사함.
+  - 생성된 DSL의 프롬프트와 제품의 채팅/직접 구성 기능에 적용할 핵심 기술을 정리함.
+
+오점:
 ---
 
 
